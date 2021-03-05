@@ -1,0 +1,19 @@
+{% extends 'users/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div style="background-color: rgb(58, 58, 58); height: 900px;color: whitesmoke;">
+    <div class = "container w-50" style = "margin-bottom: 5em; padding-top: 5em;">
+        <form method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <input type="submit" class = "btn btn-primary">
+        </form>
+    </div>
+</div>
+{% endblock content %}
+
+
+
+
+

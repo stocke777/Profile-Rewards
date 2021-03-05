@@ -1,0 +1,8 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+<div style="text-align: center; background-color: rgb(58, 58, 58); color: whitesmoke;height: 900px;padding-top: 400px;">
+<h2>Logged Out</h2>
+<p>Wanna login Again? <a href="{% url 'login' %}" style="text-shadow: 2px 2px 4px #000000;">LOGIN</a></p>
+</div>
+{% endblock content %}
