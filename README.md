@@ -1,6 +1,8 @@
 # Profile-Rewards
 User Profile and Rewarding badges for users.
 
+https://demo-profile-app-jai.herokuapp.com/
+
 <br/>
 
 ## User Profile where Users can edit profile and add profile-pic. Also they can be assigned Badges by Admins.
